@@ -1,13 +1,14 @@
 #
 # Conditional build:
 # _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	SQL
 %define	pnam	Abstract
 Summary:	SQL::Abstract - Generate SQL from Perl data structures
 Summary(pl):	Modu³ SQL::Abstract - generuj±cy SQL z perlowych struktur danych
 Name:		perl-SQL-Abstract
-Version:	1.09
+Version:	1.10
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
