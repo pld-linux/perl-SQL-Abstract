@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	SQL
 %define	pnam	Abstract
-Summary:	SQL::Abstract - Generate SQL from Perl data structures
-Summary(pl):	Modu³ SQL::Abstract - generuj±cy SQL z perlowych struktur danych
+Summary:	SQL::Abstract - generate SQL from Perl data structures
+Summary(pl):	SQL::Abstract - generuj±cy SQL z perlowych struktur danych
 Name:		perl-SQL-Abstract
 Version:	1.15
 Release:	1
