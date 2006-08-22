@@ -9,19 +9,20 @@ Summary:	SQL::Abstract - generate SQL from Perl data structures
 Summary(pl):	SQL::Abstract - generuj±cy SQL z perlowych struktur danych
 Name:		perl-SQL-Abstract
 Version:	1.21
-Release:	0.1
+Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a77ef9ee19ce095681189aa259db920a
+URL:		http://search.cpan.org/dist/SQL-Abstract/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module was inspired by the excellent DBIx::Abstract.  However,
-in using the module I found that what I wanted to do was generate SQL,
+This module was inspired by the excellent DBIx::Abstract. However, in
+using the module I found that what I wanted to do was generate SQL,
 but still retain complete control over my statement handles and use
 the DBI interface. So, I set out to create an abstract SQL generation
 module.
