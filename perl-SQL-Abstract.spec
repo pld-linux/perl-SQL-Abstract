@@ -6,7 +6,7 @@
 %define		pdir	SQL
 %define		pnam	Abstract
 Summary:	SQL::Abstract - generate SQL from Perl data structures
-Summary(pl):	SQL::Abstract - generuj±cy SQL z perlowych struktur danych
+Summary(pl.UTF-8):   SQL::Abstract - generujÄ…cy SQL z perlowych struktur danych
 Name:		perl-SQL-Abstract
 Version:	1.21
 Release:	1
@@ -27,10 +27,10 @@ but still retain complete control over my statement handles and use
 the DBI interface. So, I set out to create an abstract SQL generation
 module.
 
-%description -l pl
-Ten modu³ by³ zainspirowany wspania³ym DBIx::Abstract. Jest to modu³
-do abstrakcyjnego tworzenia SQL, pozwalaj±cy na pe³n± kontrolê nad
-wyra¿eniami i u¿ywanie interfejsu DBI.
+%description -l pl.UTF-8
+Ten moduÅ‚ byÅ‚ zainspirowany wspaniaÅ‚ym DBIx::Abstract. Jest to moduÅ‚
+do abstrakcyjnego tworzenia SQL, pozwalajÄ…cy na peÅ‚nÄ… kontrolÄ™ nad
+wyraÅ¼eniami i uÅ¼ywanie interfejsu DBI.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
