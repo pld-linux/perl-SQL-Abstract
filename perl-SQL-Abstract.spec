@@ -6,7 +6,7 @@
 %define		pdir	SQL
 %define		pnam	Abstract
 Summary:	SQL::Abstract - generate SQL from Perl data structures
-Summary(pl.UTF-8):   SQL::Abstract - generujący SQL z perlowych struktur danych
+Summary(pl.UTF-8):	SQL::Abstract - generujący SQL z perlowych struktur danych
 Name:		perl-SQL-Abstract
 Version:	1.21
 Release:	1
