@@ -8,12 +8,12 @@
 Summary:	SQL::Abstract - generate SQL from Perl data structures
 Summary(pl.UTF-8):	SQL::Abstract - generujący SQL z perlowych struktur danych
 Name:		perl-SQL-Abstract
-Version:	1.58
+Version:	1.60
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4ab50f21c4795a7ec988efa7b21e6270
+# Source0-md5:	1f24c3367f8841ec3780284712f7622a
 URL:		http://search.cpan.org/dist/SQL-Abstract/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
