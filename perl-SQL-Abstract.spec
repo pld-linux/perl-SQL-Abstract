@@ -8,18 +8,20 @@
 Summary:	SQL::Abstract - generate SQL from Perl data structures
 Summary(pl.UTF-8):	SQL::Abstract - generujący SQL z perlowych struktur danych
 Name:		perl-SQL-Abstract
-Version:	1.60
+Version:	1.72
 Release:	1
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1f24c3367f8841ec3780284712f7622a
+# Source0-md5:	ca64d0e803eafa040e7c712afe482c94
 URL:		http://search.cpan.org/dist/SQL-Abstract/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl(Clone) >= 0.31
+BuildRequires:	perl-Class-Accessor-Grouped >= 0.10002
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.42
+BuildRequires:	perl-Hash-Merge >= 0.12
 BuildRequires:	perl-Test-Deep
 BuildRequires:	perl-Test-Exception
 BuildRequires:	perl-Test-Warn
@@ -61,8 +63,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes INSTALL
+%doc Changes
+%attr(755,root,root) %{_bindir}/format-sql
+%{perl_vendorlib}/DBIx/Class/Storage/Debug/PrettyPrint.pm
 %dir %{perl_vendorlib}/SQL/Abstract
 %{perl_vendorlib}/SQL/*.pm
+%{perl_vendorlib}/SQL/Abstract/Tree.pm
 %{perl_vendorlib}/SQL/Abstract/Test.pm
 %{_mandir}/man3/*
