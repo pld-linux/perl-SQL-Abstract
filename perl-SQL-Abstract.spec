@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	SQL
 %define		pnam	Abstract
 Summary:	SQL::Abstract - generate SQL from Perl data structures
